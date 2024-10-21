@@ -6,3 +6,5 @@ Project/Logs/
 Project/Temp/
 
 Project/UserSettings/
+
+Project/*.csproj
