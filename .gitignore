@@ -11,3 +11,7 @@ Project/*.csproj
 Project/obj/
 
 Project/.idea/
+
+Project/Recordings/
+
+Project/.vsconfig
