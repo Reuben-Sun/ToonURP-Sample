@@ -101,7 +101,7 @@ public class BVHDriver : MonoBehaviour
         {
             if(bname == "pos")
             {                
-                bvhPos.Add(bp.root.name, new Vector3(currFrame["pos"].x, currFrame["pos"].y, currFrame["pos"].z));
+                bvhPos.Add(bp.root.name, new Vector3(currFrame["pos"].x, -currFrame["pos"].z, currFrame["pos"].y));
             }
             else
             {
@@ -113,12 +113,12 @@ public class BVHDriver : MonoBehaviour
             }
         }
         
-        anim.GetBoneTransform(HumanBodyBones.Hips).position = bvhPos[bp.root.name]*scaleRatio;
+        anim.GetBoneTransform(HumanBodyBones.Hips).localPosition = bvhPos[bp.root.name]*scaleRatio;
         
-        foreach (string bname in bvhHireachy.Keys)
-        {
-            Color color = new Color(1.0f, 0.0f, 0.0f);
-            Debug.DrawLine(bvhPos[bname]*scaleRatio, bvhPos[bvhHireachy[bname]]*scaleRatio, color);            
-        }
+        // foreach (string bname in bvhHireachy.Keys)
+        // {
+        //     Color color = new Color(1.0f, 0.0f, 0.0f);
+        //     Debug.DrawLine(bvhPos[bname]*scaleRatio, bvhPos[bvhHireachy[bname]]*scaleRatio, color);            
+        // }
     }
 }

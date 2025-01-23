@@ -478,11 +478,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: tuopa
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d425b2792fb493243843bf0dff575f1f, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d425b2792fb493243843bf0dff575f1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2077747425}
   m_SourcePrefab: {fileID: 100100000, guid: d425b2792fb493243843bf0dff575f1f, type: 3}
+--- !u!1 &2077747423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d425b2792fb493243843bf0dff575f1f, type: 3}
+  m_PrefabInstance: {fileID: 2077747422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2077747424 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: d425b2792fb493243843bf0dff575f1f, type: 3}
+  m_PrefabInstance: {fileID: 2077747422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2077747425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077747423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208299b2ef6634f439c239277bb22fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAvatar: {fileID: 2077747424}
+  bonemapPath: Assets\BVHParser\Resources\Bonemaps.txt
+  filename: Assets\BVHParser\Resources\bvh\13_29.bvh
+  frameRate: 60
+  bonemaps: []
 --- !u!1001 &2428046529760010152
 PrefabInstance:
   m_ObjectHideFlags: 0
