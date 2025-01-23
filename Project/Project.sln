@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Unive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.csproj", "{8da95d05-a67b-b249-e4cd-17b18ddea75f}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{fa1101a3-bedf-00c3-ca8d-566e6af9622a}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LWGUI", "LWGUI.csproj", "{b06a562d-64fa-b31b-c5b2-b4441dd7a3e8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{fa1101a3-bedf-00c3-ca8d-566e6af9622a}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPv2URPConverters", "PPv2URPConverters.csproj", "{05c3fb9b-e795-3106-cb62-29637e8b3b0e}"
 EndProject
@@ -42,10 +42,10 @@ Global
 		{2914696f-3be1-8bc2-36a0-92dc21f5c59b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8da95d05-a67b-b249-e4cd-17b18ddea75f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8da95d05-a67b-b249-e4cd-17b18ddea75f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{fa1101a3-bedf-00c3-ca8d-566e6af9622a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{fa1101a3-bedf-00c3-ca8d-566e6af9622a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b06a562d-64fa-b31b-c5b2-b4441dd7a3e8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b06a562d-64fa-b31b-c5b2-b4441dd7a3e8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fa1101a3-bedf-00c3-ca8d-566e6af9622a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fa1101a3-bedf-00c3-ca8d-566e6af9622a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05c3fb9b-e795-3106-cb62-29637e8b3b0e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05c3fb9b-e795-3106-cb62-29637e8b3b0e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{cd03e3fc-ed5b-7285-c8c9-026ccf7a6d4d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
