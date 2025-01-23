@@ -4,3 +4,6 @@
 [submodule "Project/Packages/ToonURP"]
 	path = Project/Packages/ToonURP
 	url = https://github.com/Reuben-Sun/ToonURP.git
+[submodule "Project/Packages/URP-Config-Package"]
+	path = Project/Packages/URP-Config-Package
+	url = https://github.com/Reuben-Sun/URP-Config-Package.git
